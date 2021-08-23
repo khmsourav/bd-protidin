@@ -1,0 +1,97 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap
+
+/* Large devices (large desktops, 1400px and up) */
+@media screen and (min-width: 1399px) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1200px) { 
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1199px) { 
+	
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media screen and (max-width: 991px) { 
+	
+	.header-top .header-sub {
+		display: none;
+	}
+
+	.navbar-wrapper li:nth-child(7):after{
+		display: none;
+	}
+	
+	.top-ad-wrapper img {
+		width: 550px;
+		height: 75px;
+	}
+
+	ul.popularNewsArea span {
+		width: 100%;
+	}
+
+	.popularNewsArea img {
+		width: 100%;
+	}
+
+	.latestNewsArea li a {
+		padding: 10px 24px;
+	}
+
+	ul.extrarNewsArea {
+		grid-template-columns: repeat(4,3fr);
+	}
+}
+ 
+/* Large devices (large desktops, 768px and up) */
+@media screen and (max-width: 767px) { 
+	
+	.navbar-wrapper li:nth-child(5):after{
+		display: none;
+	}
+	.top-ad-wrapper {
+		padding: 25px 0;
+	}
+
+	.news-title h1 {
+		line-height: 45px;
+	}
+
+	.top-ad-wrapper img {
+		width: 460px;
+	}
+
+	ul.popularNewsArea span {
+		width: 75%;
+	}
+
+	.popularNewsArea img {
+		width: 50px;
+	}
+
+	.another-topic-items li {
+		margin-bottom: 22px;
+	}
+
+	.default-footer.default-footer-row1 img {
+		width: 245px;
+	}
+
+	ul.extrarNewsArea {
+		grid-template-columns: repeat(3,4fr);
+	}
+
+	.default-footer-editor span {
+		font-size: 18px;
+	}
+
+	.footerExtraMenu li {
+		padding: 6px 5px;
+	}
+}
